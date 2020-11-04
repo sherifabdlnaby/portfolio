@@ -29,9 +29,28 @@
 }
 
 .header {
-  background-color: #fff;
+  background-color: rgba(255,255,255,1);
+  backdrop-filter: blur(30px);
   padding: 15px 20px;
   margin: 0px auto;
+}
+
+@supports (-webkit-backdrop-filter: none) or (backdrop-filter: none) {
+  .header {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.75);
+  }
+
+  .dark-menu {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    background-color: rgba(31,31,31,0.60) !important;
+  }
+
+  .header .menu {
+    background-color: rgba(0,0,0,0) !important;
+  }
 }
 
 .header ul {
@@ -87,6 +106,7 @@
   clear: both;
   max-height: 0;
   transition: max-height 0.2s ease-out;
+  background-color: rgba(0,0,0,0) !important;
 }
 
 /* menu icon */
