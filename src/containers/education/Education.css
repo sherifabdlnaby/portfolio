@@ -1,3 +1,16 @@
+@media only screen and (min-width: 601px) {
+  .education-section {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .education-section {
+    width: 90%;
+  }
+}
+
+
 .education-heading {
   font-size: 56px;
   font-weight: 400;
@@ -6,7 +19,6 @@
 .education-section {
   display: flex;
   flex-direction: column;
-  width: 90%;
   padding: 20px 0px;
   margin: 0px auto;
   margin-top: 2rem;
