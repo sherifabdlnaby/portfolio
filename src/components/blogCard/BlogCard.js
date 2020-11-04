@@ -11,31 +11,21 @@ export default function BlogCard({ blog, isDark }) {
 
   return (
     // <div onClick={() => openUrlInNewTab(blog.url)}>
-      <div class={isDark ? "blog-container dark-mode" : "blog-container"}>
-        <a
-          class={isDark ? "dark-mode blog-card blog-card-shadow" : "blog-card"}
-          href={blog.url}
-          target="_blank"
-        >
-          <img src={blog.image} className={'img'}/>
+    <div class={isDark ? "blog-container dark-mode" : "blog-container"}>
+      <a
+        class={isDark ? "dark-mode blog-card blog-card-shadow" : "blog-card"}
+        href={blog.url}
+        target="_blank"
+      >
+        <img src={blog.image} className={"img"} />
+        <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
+          {blog.title}
+        </h3>
+        <div style={{ display: "inline-block" }}></div>
 
-          <h3
-           className={isDark ? "small-dark blog-title" : "blog-title"}
-           style={{width:'80%'}}
-           >
-            {blog.title}
-          </h3>
-          <div style={{display:"inline-block"}}>
-
-          </div>
-
-          <p 
-          class={isDark ? "small-dark small" : "small"}
-          >
-            {blog.description}
-          </p>
-        </a>
-      </div>
+        <p class={isDark ? "small-dark small" : "small"}>{blog.description}</p>
+      </a>
+    </div>
     // </div>
   );
 }
