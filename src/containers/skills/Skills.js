@@ -8,13 +8,13 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Skills() {
   const { isDark } = useContext(StyleContext);
   return (
-    <div className={isDark ? "dark-mode main" : "main"} id="skills">
+    <div className={isDark ? "dark-mode main" : "main"} id="interests">
       <div className="skills-main-div">
         <Fade right distance="30px">
           <div className="skills-image-div">
             <img
               alt="Saad Working"
-              src={require("../../assets/images/developerActivity.svg")}
+              src={require("../../assets/images/undraw_hacker_mindset_gjwq.svg")}
             ></img>
           </div>
         </Fade>

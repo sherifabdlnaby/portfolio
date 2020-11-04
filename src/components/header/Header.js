@@ -27,31 +27,31 @@ function Header() {
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           <li>
-            <a href="#skills">Skills</a>
+            <a href="#interests"><i className="fas fa-flask"></i>  Interests</a>
+          </li>
+          <li>
+            <a href="#blogs"><i className="fas fa-feather"></i>  Latest Blogs</a>
           </li>
           {exp === true && (
             <li>
-              <a href="#work">Work Experiences</a>
+              <a href="#work"><i className="fas fa-briefcase"></i>  Work Experiences</a>
             </li>
           )}
           <li>
-            <a href="#education">Education</a>
+            <a href="#education"><i className="fas fa-university"></i>  Education</a>
           </li>
 
           <li>
-            <a href="#opensource">Open Source</a>
+            <a href="#opensource"><i className="fab fa-github"></i>   Open Source</a>
           </li>
 
           <li>
-            <a href="#blogs">Blogs</a>
-          </li>
-
-          <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact"><i className="fas fa-address-card"></i>  Contact Me</a>
           </li>
           <li>
             <a>
               <ToggleSwitch />
+                 <i className="fas fa-sun">  </i>
             </a>
           </li>
         </ul>
