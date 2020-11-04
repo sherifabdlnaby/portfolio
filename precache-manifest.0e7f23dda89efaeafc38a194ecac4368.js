@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2085c3b4e01e6f581358977cba43e0d5",
+    "revision": "46ac0d3a144812d5ff85f68e8664068b",
     "url": "/index.html"
   },
   {
-    "revision": "8c24ad038d69fa6c6d82",
+    "revision": "5582a12707872d3e7d0b",
     "url": "/static/css/3.00373544.chunk.css"
   },
   {
-    "revision": "0159657fdf63f0c83d8c",
+    "revision": "d47a8833301046562503",
     "url": "/static/css/4.eb42b8a4.chunk.css"
   },
   {
-    "revision": "3a1d0213d66f18fec3ca",
+    "revision": "a4c28889ef98531ff72e",
     "url": "/static/css/main.7aef9546.chunk.css"
   },
   {
-    "revision": "777e7e7dc50481bd7dae",
-    "url": "/static/js/2.51c60e9a.chunk.js"
+    "revision": "18c210857c59e7091b42",
+    "url": "/static/js/2.ee5a27dc.chunk.js"
   },
   {
-    "revision": "8c24ad038d69fa6c6d82",
-    "url": "/static/js/3.477320da.chunk.js"
+    "revision": "5582a12707872d3e7d0b",
+    "url": "/static/js/3.e5d4f082.chunk.js"
   },
   {
-    "revision": "0159657fdf63f0c83d8c",
-    "url": "/static/js/4.6e3e6f18.chunk.js"
+    "revision": "d47a8833301046562503",
+    "url": "/static/js/4.c6b4332e.chunk.js"
   },
   {
-    "revision": "3a1d0213d66f18fec3ca",
-    "url": "/static/js/main.b49ff8d8.chunk.js"
+    "revision": "a4c28889ef98531ff72e",
+    "url": "/static/js/main.e6923169.chunk.js"
   },
   {
-    "revision": "d6a3f14a499761a2eaf9",
-    "url": "/static/js/runtime-main.c29e6657.js"
+    "revision": "9cd43e383bb2715388d1",
+    "url": "/static/js/runtime-main.a63f64e7.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -130,5 +130,13 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
     "url": "/static/media/talksCardBackAlt.b48e86c9.svg"
+  },
+  {
+    "revision": "ac169ca318a1b9cbe59088176f39d426",
+    "url": "/static/media/undraw_developer_activity_bv83.ac169ca3.svg"
+  },
+  {
+    "revision": "d942b01a6973a92a13870097a7c4890e",
+    "url": "/static/media/undraw_hacker_mindset_gjwq.d942b01a.svg"
   }
 ]);

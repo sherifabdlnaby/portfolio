@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.7aef9546.chunk.css",
-    "main.js": "/static/js/main.b49ff8d8.chunk.js",
-    "main.js.map": "/static/js/main.b49ff8d8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c29e6657.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c29e6657.js.map",
-    "static/js/2.51c60e9a.chunk.js": "/static/js/2.51c60e9a.chunk.js",
-    "static/js/2.51c60e9a.chunk.js.map": "/static/js/2.51c60e9a.chunk.js.map",
+    "main.js": "/static/js/main.e6923169.chunk.js",
+    "main.js.map": "/static/js/main.e6923169.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a63f64e7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a63f64e7.js.map",
+    "static/js/2.ee5a27dc.chunk.js": "/static/js/2.ee5a27dc.chunk.js",
+    "static/js/2.ee5a27dc.chunk.js.map": "/static/js/2.ee5a27dc.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/static/css/3.00373544.chunk.css",
-    "static/js/3.477320da.chunk.js": "/static/js/3.477320da.chunk.js",
-    "static/js/3.477320da.chunk.js.map": "/static/js/3.477320da.chunk.js.map",
+    "static/js/3.e5d4f082.chunk.js": "/static/js/3.e5d4f082.chunk.js",
+    "static/js/3.e5d4f082.chunk.js.map": "/static/js/3.e5d4f082.chunk.js.map",
     "static/css/4.eb42b8a4.chunk.css": "/static/css/4.eb42b8a4.chunk.css",
-    "static/js/4.6e3e6f18.chunk.js": "/static/js/4.6e3e6f18.chunk.js",
-    "static/js/4.6e3e6f18.chunk.js.map": "/static/js/4.6e3e6f18.chunk.js.map",
+    "static/js/4.c6b4332e.chunk.js": "/static/js/4.c6b4332e.chunk.js",
+    "static/js/4.c6b4332e.chunk.js.map": "/static/js/4.c6b4332e.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.5dda3ebdf7c796fbca1f781f3c242950.js": "/precache-manifest.5dda3ebdf7c796fbca1f781f3c242950.js",
+    "precache-manifest.0e7f23dda89efaeafc38a194ecac4368.js": "/precache-manifest.0e7f23dda89efaeafc38a194ecac4368.js",
     "service-worker.js": "/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/static/css/3.00373544.chunk.css.map",
     "static/css/4.eb42b8a4.chunk.css.map": "/static/css/4.eb42b8a4.chunk.css.map",
@@ -41,12 +41,14 @@
     "static/media/skill.svg": "/static/media/skill.34409398.svg",
     "static/media/stanfordLogo.png": "/static/media/stanfordLogo.3b758ef5.png",
     "static/media/TalkCard.css": "/static/media/talksCardBack.06b04027.svg",
-    "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.b48e86c9.svg"
+    "static/media/talksCardBackAlt.svg": "/static/media/talksCardBackAlt.b48e86c9.svg",
+    "static/media/undraw_developer_activity_bv83.svg": "/static/media/undraw_developer_activity_bv83.ac169ca3.svg",
+    "static/media/undraw_hacker_mindset_gjwq.svg": "/static/media/undraw_hacker_mindset_gjwq.d942b01a.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c29e6657.js",
-    "static/js/2.51c60e9a.chunk.js",
+    "static/js/runtime-main.a63f64e7.js",
+    "static/js/2.ee5a27dc.chunk.js",
     "static/css/main.7aef9546.chunk.css",
-    "static/js/main.b49ff8d8.chunk.js"
+    "static/js/main.e6923169.chunk.js"
   ]
 }
