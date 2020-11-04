@@ -10,7 +10,7 @@ export default function SoftwareSkill() {
           {skillsSection.softwareSkills.map(skills => {
             return (
               <li className="software-skill-inline" name={skills.skillName}>
-                <i className={skills.fontAwesomeClassname}></i>
+                <img className="software-skill-icon" src={skills.image}/>
                 <p>{skills.skillName}</p>
               </li>
             );

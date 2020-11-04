@@ -17,7 +17,7 @@ export default function BlogCard({ blog, isDark }) {
           href={blog.url}
           target="_blank"
         >
-                    <img src={`https://cdn-images-1.medium.com/max/893/1*6Ibx_1x-07Scrgw7Yy9ypQ.jpeg`} className={'img'}/>
+          <img src={blog.image} className={'img'}/>
 
           <h3
            className={isDark ? "small-dark blog-title" : "blog-title"}

@@ -32,9 +32,12 @@ const skillsSection = {
   title: "What i do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji("⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean")
+    emoji("⚡ Developing Large Scale Applications and Solid Architectures"),
+    emoji("⚡ Open Source Contributions, Implementing Open Standards."),
+    emoji("⚡ Infrastructure Operation, Monitoring, and Observability"),
+    emoji("⚡ Data Infrastructure Technologies like Spark, Hadoop, Hive and Presto"),
+    emoji("⚡ Streaming Applications like Flink, Beam and Spark Stream. and Of-course Kafka."),
+    emoji("⚡ Kubernetes (cz why not yet?)")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -42,56 +45,52 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Golang",
+      image: require("./assets/images/go.png")
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Docker",
+      image: require("./assets/images/docker.png")
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Kubernetes",
+      image: require("./assets/images/kubernetes.png")
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "Kafka",
+      image: require("./assets/images/kafka.png")
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Spark",
+      image: require("./assets/images/spark.png")
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Prometheus",
+      image: require("./assets/images/prom.png")
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "Spark",
+      image: require("./assets/images/spark.png")
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Flink",
+      image: require("./assets/images/Flink.png")
     },
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Beam",
+      image: require("./assets/images/Beam.png")
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Hadoop",
+      image: require("./assets/images/Hadoop.png")
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "Airflow",
+      image: require("./assets/images/Airflow.png")
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "PHP",
+      image: require("./assets/images/Php.png")
     }
   ]
 };
@@ -102,25 +101,11 @@ const educationInfo = {
   viewEducation: true, // Set it to true to see education section
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      ]
+      schoolName: "Cairo University",
+      logo: require("./assets/images/Cairo.png"),
+      subHeader: "Bachelor's degree in Computer Science",
+      duration: "September 2015 - July 2019",
+      desc: "Graduated with Grade: Excellence with Honors.",
     }
   ]
 }
@@ -153,28 +138,38 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "Levelset",
+      companylogo: require("./assets/images/levelset.jpg"),
+      date: "Jan 2019 – Oct 2019 (10mos)",
+      desc: "Working on Infrastructure Side along with DevOps specialization responsibilities.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Implemented Centralized Logging System for All Company Services using Elastic Stack",
+        "Introduced A more sophisticated alerting system along with other observability practices and enhanced Alerting platform.",
+        "Worked in Packaging and Dockerzing most company Services and setting up plans to migrate to Kubernetes.",
+        "Had Experiences doing traditional DevOps duties",
+        "Experiences with Neo4J, Kafka, Elasticsearch and RabbitMQ."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Engineer Intern",
+      company: "Levelset",
+      companylogo: require("./assets/images/levelset.jpg"),
+      date: "Jul 2018 – Oct 2018",
+      descBullets: ["Introduced MVP for a centralized logging system using Elastic Stack."]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Development Intern",
+      company: "El-Araby Group",
+      companylogo: require("./assets/images/araby.jpg"),
+      date: "Sep 2017 – Nov 2017",
+      desc: "Improving and refining parts within El-Araby e-commerce website; was also involved in designing, building, and testing a new website for El-Araby social platform."
+    },
+    {
+      role: "Summer Academy Intern",
+      company: "Microsoft",
+      companylogo: require("./assets/images/microsoft.jpg"),
+      date: "Sep 2017 – Nov 2017",
+      desc: "Developing an internal solution with the cooperation of Microsoft partners using Microsoft technologies and hosted on Azure. Being the team leader of the selected best team, I was offered an internship at El-Araby Group."
     },
   ]
 };

@@ -47,6 +47,7 @@
   z-index: 0;
   overflow: hidden;
   height: 100%;
+  width: 100%;
   float: left;
 }
 
@@ -59,7 +60,10 @@
 
 .img {
   display: inline-block;
-  width: 20%;
   height: 100%;
   float: left;
+  height: 100%;
+  width: 20%;
+  object-fit: cover;
+
 }
