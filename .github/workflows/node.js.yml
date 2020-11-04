@@ -6,6 +6,8 @@ on:
   push:
     branches:
       - master
+  schedule: # Run workflow automatically
+    - cron: '0 * * * *' # Runs every hour, on the hour
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
