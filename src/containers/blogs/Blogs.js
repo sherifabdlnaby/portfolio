@@ -13,7 +13,7 @@ export default function Blogs() {
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="blogs">
         <div className="blog-header">
-          <h1 className="blog-header-text">{blogSection.title}</h1>
+          <h1 className="blog-header-text">{blogSection.title}  <i className="fab fa-medium"></i></h1>
           <p
             className={
               isDark ? "dark-mode blog-subtitle" : "subTitle blog-subtitle"

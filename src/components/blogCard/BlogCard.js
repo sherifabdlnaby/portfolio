@@ -16,6 +16,7 @@ export default function BlogCard({ blog, isDark }) {
           class={isDark ? "dark-mode blog-card blog-card-shadow" : "blog-card"}
           href={blog.url}
         >
+          {/*<img width={100} height={100} src={blog.image}/>*/}
           <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
             {blog.title}
           </h3>
