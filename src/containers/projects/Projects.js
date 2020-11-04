@@ -35,7 +35,7 @@ export default function Projects() {
         query: gql`
         {
         user(login: "${openSource.githubUserName}") {
-          pinnedItems(first: 6, types: [REPOSITORY]) {
+          pinnedItems(first: 8, types: [REPOSITORY]) {
             totalCount
             edges {
               node {
