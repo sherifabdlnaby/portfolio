@@ -2,16 +2,21 @@
   .greet-main {
     width: 75%;
   }
+  .main {
+    width: 75%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
   .greet-main {
-    width: 100%;
+    width: 90%;
+  }
+  .main {
+    width: 90%;
   }
 }
 
 .main {
-  width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
   margin-top: 4rem;
