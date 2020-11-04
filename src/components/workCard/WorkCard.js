@@ -14,26 +14,26 @@ export default function WorkCard({ work }) {
   const { isDark } = useContext(StyleContext);
   return (
     <div>
-      <Fade left duration={1000}>
-        <div className="education-card">
-          <div className="education-card-left">
+      {/*<Fade left distance="20px">*/}
+        <div className="work-card">
+          <div className="work-card-left">
             <img
               crossOrigin={"anonymous"}
               ref={imgRef}
-              className="education-roundedimg"
+              className="work-roundedimg"
               src={work.companylogo}
               alt={work.company}
             />
           </div>
-          <div className="education-card-right">
-            <h5 className="education-text-school">{work.company}</h5>
+          <div className="work-card-right">
+            <h5 className="work-text-school">{work.company}</h5>
 
-            <div className="education-text-details">
+            <div className="work-text-details">
               <h5
                 className={
                   isDark
-                    ? "dark-mode education-text-subHeader"
-                    : "education-text-subHeader"
+                    ? "dark-mode work-text-subHeader"
+                    : "work-text-subHeader"
                 }
               >
                 {work.subHeader}
@@ -41,12 +41,12 @@ export default function WorkCard({ work }) {
               <p
                 className={`${
                   isDark ? "dark-mode" : ""
-                } education-text-duration`}
+                } work-text-duration`}
               >
                 {work.date}
               </p>
-              <p className="education-text-desc">{work.desc}</p>
-              <div className="education-text-bullets">
+              <p className="work-text-desc">{work.desc}</p>
+              <div className="work-text-bullets">
                 <ul>
                   <GetDescBullets descBullets={work.descBullets} />
                 </ul>
@@ -54,10 +54,10 @@ export default function WorkCard({ work }) {
             </div>
           </div>
         </div>
+      {/*</Fade>*/}
+      <Fade left distance="100px">
+        <div className="work-card-border"></div>
       </Fade>
-      <Slide left duration={2000}>
-        <div className="education-card-border"></div>
-      </Slide>
     </div>
   );
 }
