@@ -51,8 +51,8 @@
   height: 100%;
   width: 100%;
   float: left;
+  white-space: initial;
 }
-white-space: initial;}
 
 .blog-card:hover {
   background-color: #e0e0e0 !important;
