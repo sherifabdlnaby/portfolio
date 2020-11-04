@@ -1,4 +1,14 @@
 /* header */
+@media only screen and (min-width: 481px) {
+  .header {
+    max-width: 75%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .header {
+    max-width: 100%;
+  }
+}
 
 .dark-menu {
   background-color: #171c28 !important;
@@ -15,7 +25,6 @@
 
 .header {
   background-color: #fff;
-  max-width: 100%;
   padding: 15px 20px;
   margin: 0px auto;
 }
