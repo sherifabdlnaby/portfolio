@@ -1,5 +1,4 @@
 .small-dark {
-
 }
 
 .blog-container {
@@ -38,9 +37,9 @@
   margin: 0px;
 }
 
-
 .blog-card {
-  display: block;
+  display: inline-block;
+  vertical-align: top;
   position: relative;
   background-color: white !important;
   border-radius: 4px;
@@ -48,14 +47,19 @@
   z-index: 0;
   overflow: hidden;
   height: 100%;
+  float: left;
 }
-
 
 .blog-card:hover {
   background-color: #e0e0e0 !important;
 }
 
-
 .blog-card-shadow {
+}
 
+.img {
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  float: left;
 }
