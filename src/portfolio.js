@@ -9,7 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sherif Abdel-Naby",
   title: "Hello, I'm Sherif",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
+  subTitle: emoji("A passionate Software Engineer with interests in Large-Scale Applications, Distributed Systems, Data Infrastructure, Streaming Systems, and Cloud Archticture. Also a Gopher."),
+  subTitle2: emoji("”It really came down to the curiosity of wanting to understand everything underneath the hood.”"),
   resumeLink: "https://drive.google.com" //TODO Add CV link
 };
 
@@ -29,8 +30,8 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "What i do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "Interests",
+  subTitle: "These are stuff that I enjoy doing, I may not -yet- have enough experience in all of these, but I know I liked them.",
   skills: [
     emoji("⚡ Developing Large Scale Applications and Solid Architectures"),
     emoji("⚡ Open Source Contributions, Implementing Open Standards."),
