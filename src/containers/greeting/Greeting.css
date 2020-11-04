@@ -97,6 +97,10 @@
   }
 }
 
+.greeting-text {
+  margin-top: 13%;
+}
+
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
