@@ -31,9 +31,13 @@ function Header() {
           </li>
           {exp === true && (
             <li>
-              <a href="#experience">Work Experiences</a>
+              <a href="#work">Work Experiences</a>
             </li>
           )}
+          <li>
+            <a href="#education">Education</a>
+          </li>
+
           <li>
             <a href="#opensource">Open Source</a>
           </li>
@@ -41,6 +45,7 @@ function Header() {
           <li>
             <a href="#blogs">Blogs</a>
           </li>
+
           <li>
             <a href="#contact">Contact Me</a>
           </li>

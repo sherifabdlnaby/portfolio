@@ -5,7 +5,7 @@ import {educationInfo, workExperiences} from '../../portfolio';
 
 export default function Work() {
   return (
-    <div className="work-section" id="education">
+    <div className="work-section" id="work">
         <h1 className="work-heading">Work Experience</h1>
         <div className="work-card-container">
           {workExperiences.experience.map((work) => (
