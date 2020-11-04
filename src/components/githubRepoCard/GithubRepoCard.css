@@ -72,12 +72,12 @@
 }
 
 .dark-card-mode {
-  background-color: #171c28 !important;
+  background-color: #1f1f1f !important;
   color:white;
 }
 .dark-card-mode p {
   color:white;
 }
 .dark-card-mode:hover {
-  background-color: #55198b !important;
+  background-color: #540B0E !important;
 }
