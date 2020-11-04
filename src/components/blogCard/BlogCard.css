@@ -1,11 +1,10 @@
 .small-dark {
-  color: white !important;
+
 }
 
 .blog-container {
   border-radius: 10px;
   color: #586069;
-  background-color: #fff;
   box-shadow: 0 0 36px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   height: 200px;
@@ -63,7 +62,7 @@
 .blog-card {
   display: block;
   position: relative;
-  background-color: transparent;
+  background-color: white !important;
   border-radius: 4px;
   text-decoration: none;
   z-index: 0;
@@ -143,5 +142,5 @@
   }
 }
 .blog-card-shadow {
-  box-shadow: 1px 0px 20px #ffffff;
+
 }
