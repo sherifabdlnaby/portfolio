@@ -4,6 +4,9 @@ import BlogCard from "../../components/blogCard/BlogCard";
 import { blogSection } from "../../portfolio";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+
+import articles from "../../medium-articles.json"
+console.log(articles)
 export default function Blogs() {
   const { isDark } = useContext(StyleContext);
   return (
@@ -21,15 +24,15 @@ export default function Blogs() {
         </div>
         <div className="blog-main-div">
           <div className="blog-text-div">
-            {blogSection.blogs.map((blog) => {
+            {articles.map((article) => {
               return (
                 <BlogCard
                   isDark={isDark}
                   blog={{
-                    url: blog.url,
-                    image: blog.image,
-                    title: blog.title,
-                    description: blog.description,
+                    url: article.link,
+                    image: article.thumbnail,
+                    title: article.title,
+                    description: article.description,
                   }}
                 />
               );
