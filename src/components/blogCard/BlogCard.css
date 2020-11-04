@@ -12,9 +12,9 @@
 
 .blog-title {
   color: #262626;
-  font-size: 22px;
+  font-size: 24px;
   line-height: 24px;
-  font-weight: 700;
+  font-weight: 900;
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 14px;
@@ -38,26 +38,6 @@
   margin: 0px;
 }
 
-.go-corner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  width: 32px;
-  height: 32px;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  background-color: #651e32;
-  border-radius: 0 4px 0 32px;
-}
-
-.go-arrow {
-  margin-top: -4px;
-  margin-right: -4px;
-  color: white;
-  font-family: courier, sans;
-}
 
 .blog-card {
   display: block;
@@ -70,77 +50,12 @@
   height: 100%;
 }
 
-.blog-card::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -16px;
-  right: -16px;
-  background: #651e32;
-  height: 32px;
-  width: 32px;
-  border-radius: 32px;
-  transform: scale(1);
-  transform-origin: 50% 50%;
-  transition: transform 0.4s ease-out;
+
+.blog-card:hover {
+  background-color: #e0e0e0 !important;
 }
 
-.blog-card:hover::before {
-  transform: scale(30);
-}
 
-.blog-card:hover > .small {
-  transition: all 0.3s ease-out;
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.blog-card:hover > h3 {
-  transition: all 0.3s ease-out;
-  color: #ffffff;
-}
-
-@media screen and (max-width: 480px) and (min-width: 300px),
-  (min-width: 925px) and (max-width: 1024px),
-  (min-width: 1405px) and (max-width: 1550px) {
-  .blog-card:hover::before {
-    transform: scale(30);
-  }
-}
-
-@media screen and (min-width: 481px) and (max-width: 675px),
-  (min-width: 1025px) and (max-width: 1404px),
-  (min-width: 1551px) {
-  .blog-card:hover::before {
-    transform: scale(40);
-  }
-  .blog-card::before {
-    transition: transform 0.45s ease-out;
-  }
-}
-
-@media screen and (min-width: 675px) and (max-width: 860px) {
-  .blog-card:hover::before {
-    transform: scale(50);
-  }
-  .blog-card::before {
-    transition: transform 0.5s ease-out;
-  }
-}
-
-@media screen and (min-width: 860px) and (max-width: 924px) {
-  .blog-card:hover::before {
-    transform: scale(60);
-  }
-  .blog-card::before {
-    transition: transform 0.5s ease-out;
-  }
-}
-
-@media screen and (max-width: 480px) and (min-width: 300px) {
-  .blog-title {
-    font-size: 18px;
-  }
-}
 .blog-card-shadow {
 
 }
