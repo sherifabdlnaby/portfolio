@@ -10,7 +10,6 @@ import StyleContext from "../../contexts/StyleContext";
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
   return (
-    <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
         <div className="greeting-main">
           <div className="greeting-text-div">
@@ -20,7 +19,8 @@ export default function Greeting() {
               >
                 {" "}
                 {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                <span className="wave-emoji">{"👋"}</span>
+                {/*<span className="wave-emoji">{emoji("👋")}</span>*/}
               </h1>
               <p
                 className={
@@ -50,6 +50,5 @@ export default function Greeting() {
           </div>
         </div>
       </div>
-    </Fade>
   );
 }

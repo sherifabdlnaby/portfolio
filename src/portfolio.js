@@ -8,22 +8,22 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sherif Abdel-Naby",
-  title: "Hi all, I'm Saad",
+  title: "Hello, I'm Sherif",
   subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing"
+  resumeLink: "https://drive.google.com" //TODO Add CV link
 };
 
 // Your Social Media Link
 
 const socialMediaLinks = {
 
-  github: "https://github.com/sherifabdlnaby",
   linkedin: "https://www.linkedin.com/in/sherifabdlnaby/",
+  twitter: "https://www.twitter.com/sherifabdlnaby",
+  github: "https://github.com/sherifabdlnaby",
   gmail: "sherifabdlnaby@gmail.com",
-  gitlab: "https://gitlab.com/sherifabdlnaby",
-  facebook: "https://www.facebook.com/sherifabdlnaby",
   medium: "https://medium.com/@sherifabdlnaby",
   // Instagram and Twitter are also supported in the links!
+  // TODO DarkMODE icons fix
 };
 
 // Your Skills Section

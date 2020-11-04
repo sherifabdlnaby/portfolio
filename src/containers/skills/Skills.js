@@ -10,7 +10,7 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
-        <Fade left duration={1000}>
+        <Fade right distance="30px">
           <div className="skills-image-div">
             <img
               alt="Saad Working"
@@ -18,7 +18,7 @@ export default function Skills() {
             ></img>
           </div>
         </Fade>
-        <Fade right duration={1000}>
+        <Fade left distance="30px">
           <div className="skills-text-div">
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
