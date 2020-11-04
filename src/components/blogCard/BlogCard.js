@@ -11,6 +11,7 @@ export default function BlogCard({ blog, isDark }) {
 
   return (
     <div onClick={() => openUrlInNewTab(blog.url)}>
+      {/*TODO add photo*/}
       <div class={isDark ? "blog-container dark-mode" : "blog-container"}>
         <a
           class={isDark ? "dark-mode blog-card blog-card-shadow" : "blog-card"}
@@ -22,9 +23,6 @@ export default function BlogCard({ blog, isDark }) {
           <p class={isDark ? "small-dark small" : "small"}>
             {blog.description}
           </p>
-          <div class="go-corner">
-            <div class="go-arrow">→</div>
-          </div>
         </a>
       </div>
     </div>
