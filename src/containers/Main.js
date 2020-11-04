@@ -13,6 +13,7 @@ import Footer from "../components/footer/Footer";
 import Talks from "./talks/Talks";
 import Podcast from "./podcast/Podcast";
 import Education from "./education/Education";
+import Work from "./work/Work";
 import Top from "./topbutton/Top";
 import Twitter from "./twitter-embed/twitter";
 import { StyleProvider } from "../contexts/StyleContext";
@@ -45,8 +46,8 @@ export default class Main extends Component {
           <Greeting />
           <Skills />
           {/*<StackProgress />*/}
+          <Work />
           <Education />
-          <WorkExperience />
           <Projects />
           {/*<StartupProject />*/}
           {/*<Achievement />*/}
