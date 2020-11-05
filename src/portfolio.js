@@ -11,8 +11,7 @@ const greeting = {
   title: "Hello, I'm Sherif",
   subTitle: emoji("A passionate Software Engineer with interests in Large-Scale Applications, Distributed Systems, Data Infrastructure, Streaming Systems, and Cloud Archticture. Also a Gopher."),
   subTitle2: emoji("”It really came down to the curiosity of wanting to understand everything underneath the hood.”"),
-  resumeLink: "https://drive.google.com" //TODO Add CV link
-};
+  resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view"
 
 // Your Social Media Link
 
@@ -31,7 +30,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Interests",
-  subTitle: "These are stuff that I enjoy doing, I may not -yet- have enough experience in all of these, but I know I liked them.",
+  subTitle: "These are stuff that I enjoy studying and I enjoy working with/on them, I may have not -yet- have lots of experience in all of these, but I know I'will :).",
   skills: [
     emoji("⚡ Developing Large Scale Applications and Solid Architectures"),
     emoji("⚡ Open Source Contributions, Implementing Open Standards."),
@@ -169,7 +168,7 @@ const workExperiences = {
       role: "Summer Academy Intern",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoft.jpg"),
-      date: "Sep 2017 – Nov 2017",
+      date: "Jul 2017 – Sep 2017",
       desc: "Developing an internal solution with the cooperation of Microsoft partners using Microsoft technologies and hosted on Azure. Being the team leader of the selected best team, I was offered an internship at El-Araby Group."
     },
   ]
