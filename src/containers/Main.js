@@ -57,7 +57,7 @@ export default class Main extends Component {
           {/*<Podcast />*/}
           <Profile />
           {/*<Contact />*/}
-          <Footer />
+          {/*<Footer />*/}
           <Top />
         </StyleProvider>
       </div>

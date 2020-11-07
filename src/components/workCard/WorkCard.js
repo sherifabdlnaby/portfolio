@@ -36,7 +36,7 @@ export default function WorkCard({ work }) {
                     : "work-text-subHeader"
                 }
               >
-                {work.subHeader}
+                {work.role}
               </h5>
               <p
                 className={`${

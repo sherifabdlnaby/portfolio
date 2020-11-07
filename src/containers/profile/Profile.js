@@ -3,6 +3,7 @@ import ApolloClient, { gql } from "apollo-boost";
 import { openSource } from "../../portfolio";
 import Contact from "../contact/Contact";
 import Loading from "../loading/Loading";
+import {Fade} from "react-reveal";
 
 const renderLoader = () => <Loading />;
 const GithubProfileCard = lazy(() => import('../../components/githubProfileCard/GithubProfileCard'));

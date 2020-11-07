@@ -6,6 +6,7 @@ import Button from "../../components/button/Button";
 import { openSource, socialMediaLinks } from "../../portfolio";
 import { StyleConsumer } from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import {Fade} from "react-reveal";
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -81,6 +82,9 @@ export default function Projects() {
       <Suspense fallback={renderLoader()}>
         <div className="main" id="opensource">
           <h1 className="project-title">Open Source Projects</h1>
+          <Fade left distance="100px">
+            <div className="work-card-border"></div>
+          </Fade>
           <div className="repo-cards-div-main">
             {repo.map((v, i) => {
               return (
