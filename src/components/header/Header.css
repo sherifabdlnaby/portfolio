@@ -107,6 +107,7 @@
   max-height: 0;
   transition: max-height 0.2s ease-out;
   background-color: rgba(0,0,0,0) !important;
+  margin: 0px auto;
 }
 
 /* menu icon */

@@ -6,7 +6,6 @@ import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
 
 import articles from "../../medium-articles.json"
-console.log(articles)
 export default function Blogs() {
   const { isDark } = useContext(StyleContext);
   return (
