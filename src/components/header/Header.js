@@ -11,6 +11,7 @@ function Header() {
   return (
     <Headroom>
       <header className={isDark ? "dark-menu header" : "header"}>
+
         <input className="menu-btn" type="checkbox" id="menu-btn" />
         <label
           className="menu-icon"
@@ -20,6 +21,9 @@ function Header() {
           <span className={isDark ? "navicon navicon-dark" : "navicon"}></span>
         </label>
         <ul className={isDark ? "dark-menu menu" : "menu"}>
+          <li>
+            <a className={"logo-font"} href="/"> Sherif Abdel-Naby</a>
+          </li>
           <li>
             <a href="#interests"><i className="fas fa-flask"></i>  Interests</a>
           </li>
