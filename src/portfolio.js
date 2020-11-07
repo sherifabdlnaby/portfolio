@@ -27,15 +27,15 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "Interests",
-  subTitle: "These are stuff that I enjoy studying and I enjoy working with/on them, I may have not -yet- have lots of experience in all of these, but I know I'will :).",
+  title: "Topics Interests",
+  subTitle: "These are topics and technologies that I enjoy studying and I enjoy working with/on them, I may not have total experience in every one of them yet, but I am always exploring. :).",
   skills: [
     emoji("⚡ Developing Large Scale Applications and Solid Architectures"),
     emoji("⚡ Open Source Contributions, Implementing Open Standards."),
     emoji("⚡ Infrastructure Operation, Monitoring, and Observability"),
     emoji("⚡ Data Infrastructure Technologies like Spark, Hadoop, Hive and Presto"),
-    emoji("⚡ Streaming Applications like Flink, Beam and Spark Stream. and Of-course Kafka."),
-    emoji("⚡ Kubernetes (cz why not yet?)")
+    emoji("⚡ Streaming Applications like Flink, Beam and Spark Streaming. and Of-course Kafka."),
+    emoji("⚡ Kubernetes")
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
@@ -45,6 +45,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Golang",
       image: require("./assets/images/go.png")
+    },
+    {
+      skillName: "Microservices",
+      image: require("./assets/images/mircsrvs.png")
+    },
+    {
+      skillName: "Distributed Systems",
+      image: require("./assets/images/distrbuitedsys.png")
     },
     {
       skillName: "Docker",
@@ -57,10 +65,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Kafka",
       image: require("./assets/images/kafka.png")
-    },
-    {
-      skillName: "Spark",
-      image: require("./assets/images/spark.png")
     },
     {
       skillName: "Prometheus",
@@ -85,10 +89,6 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Airflow",
       image: require("./assets/images/Airflow.png")
-    },
-    {
-      skillName: "PHP",
-      image: require("./assets/images/Php.png")
     }
   ]
 };
