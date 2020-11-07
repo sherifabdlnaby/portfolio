@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe098d92d1db43b6812545c80362d61a",
+    "revision": "b95fd4602ddf8f808e4a1b4ece70eb85",
     "url": "https://sherif.dev/index.html"
   },
   {
-    "revision": "78943b7e728c3200b3a0",
+    "revision": "f0d078bb68d0cb06ab9a",
     "url": "https://sherif.dev/static/css/3.f5b3d279.chunk.css"
   },
   {
-    "revision": "cfdb43111081b789a4f8",
-    "url": "https://sherif.dev/static/css/4.eb42b8a4.chunk.css"
+    "revision": "14432bb74ebaed9030f9",
+    "url": "https://sherif.dev/static/css/4.81397dca.chunk.css"
   },
   {
-    "revision": "07a5439e7eac02afbb07",
-    "url": "https://sherif.dev/static/css/main.631e4ad7.chunk.css"
+    "revision": "f7642c633e70bac031af",
+    "url": "https://sherif.dev/static/css/main.06e1f039.chunk.css"
   },
   {
-    "revision": "dcd98bf531e1555fde95",
-    "url": "https://sherif.dev/static/js/2.d698f822.chunk.js"
+    "revision": "bed9d3d666120e330402",
+    "url": "https://sherif.dev/static/js/2.52e03646.chunk.js"
   },
   {
-    "revision": "78943b7e728c3200b3a0",
-    "url": "https://sherif.dev/static/js/3.300fb323.chunk.js"
+    "revision": "f0d078bb68d0cb06ab9a",
+    "url": "https://sherif.dev/static/js/3.0440e951.chunk.js"
   },
   {
-    "revision": "cfdb43111081b789a4f8",
-    "url": "https://sherif.dev/static/js/4.cf86e13a.chunk.js"
+    "revision": "14432bb74ebaed9030f9",
+    "url": "https://sherif.dev/static/js/4.d05529fb.chunk.js"
   },
   {
-    "revision": "07a5439e7eac02afbb07",
-    "url": "https://sherif.dev/static/js/main.fa7b8cf1.chunk.js"
+    "revision": "f7642c633e70bac031af",
+    "url": "https://sherif.dev/static/js/main.89c7656c.chunk.js"
   },
   {
-    "revision": "0b04933ecefd3cc4b686",
-    "url": "https://sherif.dev/static/js/runtime-main.03d5dafe.js"
+    "revision": "38b33ae2e553358ce47e",
+    "url": "https://sherif.dev/static/js/runtime-main.9bc6bf7a.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -78,6 +78,18 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "51cf7192327488da3d2a171280680c16",
     "url": "https://sherif.dev/static/media/contactMailDark.51cf7192.svg"
+  },
+  {
+    "revision": "da1176f1c3a608f056aafb38782d0927",
+    "url": "https://sherif.dev/static/media/desk.da1176f1.svg"
+  },
+  {
+    "revision": "8e89a4362fe8c54addfb281d12d7d854",
+    "url": "https://sherif.dev/static/media/desk2.8e89a436.svg"
+  },
+  {
+    "revision": "d6fe737aa192d1689b57fcc61f17d44f",
+    "url": "https://sherif.dev/static/media/desk3.d6fe737a.svg"
   },
   {
     "revision": "59389695208d7454c6607bed51ed4316",
@@ -126,6 +138,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "beda3e0cb1d3c91b45db72879bc13178",
     "url": "https://sherif.dev/static/media/microsoft.beda3e0c.jpg"
+  },
+  {
+    "revision": "ab226c20da21d1a19fbbd4e3c712493a",
+    "url": "https://sherif.dev/static/media/monitors.ab226c20.svg"
   },
   {
     "revision": "829ad0a1deef4d7295adfecdf12df2be",
@@ -178,5 +194,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d942b01a6973a92a13870097a7c4890e",
     "url": "https://sherif.dev/static/media/undraw_hacker_mindset_gjwq.d942b01a.svg"
+  },
+  {
+    "revision": "2dee079734e5975a17f77cdd71efee24",
+    "url": "https://sherif.dev/static/media/vcs.2dee0797.svg"
   }
 ]);
