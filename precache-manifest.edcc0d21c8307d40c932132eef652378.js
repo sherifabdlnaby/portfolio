@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45f9c75bf661f0e0073c9dcf63dbe520",
+    "revision": "fe098d92d1db43b6812545c80362d61a",
     "url": "https://sherif.dev/index.html"
   },
   {
-    "revision": "2957f3b8f10c69eb0a1b",
+    "revision": "78943b7e728c3200b3a0",
     "url": "https://sherif.dev/static/css/3.f5b3d279.chunk.css"
   },
   {
-    "revision": "2a9ffcce878c3e139ea1",
+    "revision": "cfdb43111081b789a4f8",
     "url": "https://sherif.dev/static/css/4.eb42b8a4.chunk.css"
   },
   {
-    "revision": "cbfb2454c265bfb6a9f8",
-    "url": "https://sherif.dev/static/css/main.103b4ae3.chunk.css"
+    "revision": "07a5439e7eac02afbb07",
+    "url": "https://sherif.dev/static/css/main.631e4ad7.chunk.css"
   },
   {
-    "revision": "92368863ce99671adbaf",
-    "url": "https://sherif.dev/static/js/2.91871ce8.chunk.js"
+    "revision": "dcd98bf531e1555fde95",
+    "url": "https://sherif.dev/static/js/2.d698f822.chunk.js"
   },
   {
-    "revision": "2957f3b8f10c69eb0a1b",
-    "url": "https://sherif.dev/static/js/3.62892aeb.chunk.js"
+    "revision": "78943b7e728c3200b3a0",
+    "url": "https://sherif.dev/static/js/3.300fb323.chunk.js"
   },
   {
-    "revision": "2a9ffcce878c3e139ea1",
-    "url": "https://sherif.dev/static/js/4.11a615c5.chunk.js"
+    "revision": "cfdb43111081b789a4f8",
+    "url": "https://sherif.dev/static/js/4.cf86e13a.chunk.js"
   },
   {
-    "revision": "cbfb2454c265bfb6a9f8",
-    "url": "https://sherif.dev/static/js/main.f5afd497.chunk.js"
+    "revision": "07a5439e7eac02afbb07",
+    "url": "https://sherif.dev/static/js/main.fa7b8cf1.chunk.js"
   },
   {
-    "revision": "da9548e084fc91c33184",
-    "url": "https://sherif.dev/static/js/runtime-main.8036a765.js"
+    "revision": "0b04933ecefd3cc4b686",
+    "url": "https://sherif.dev/static/js/runtime-main.03d5dafe.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -114,6 +114,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "25bf045ca257e971124f3997d89f321c",
     "url": "https://sherif.dev/static/media/logo.25bf045c.svg"
+  },
+  {
+    "revision": "c2828bcc7f3959f3a1ec8b6e64fdab95",
+    "url": "https://sherif.dev/static/media/logo.c2828bcc.png"
   },
   {
     "revision": "52be31441c8cf8a8a16bd7a228d428bf",
