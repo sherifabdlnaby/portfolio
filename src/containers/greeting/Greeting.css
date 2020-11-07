@@ -19,7 +19,6 @@
 .main {
   padding: 20px 10px;
   margin: 0px auto;
-  margin-top: 3rem;
 }
 .greet-main {
   padding: 20px 10px;
@@ -43,7 +42,7 @@
 
 .greeting-main > * {
   flex: 1;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 .button-greeting-div {
   display: flex;
@@ -51,20 +50,20 @@
 }
 
 .greeting-text {
-  font-size: 70px;
+  font-size: 3em;
   line-height: 1.1;
   color: black !important;
 }
 
 .greeting-text-p {
-  font-size: 30px;
-  line-height: 40px;
+  font-size: 1.2em;
+  line-height: 1.5em;
 }
 
 .greeting-image-div > img {
   max-width: 100%;
   height: auto;
-  /*padding-top: 100px;*/
+  padding-top: 2em;
 }
 .wave-emoji {
   animation-duration: 1.8s;

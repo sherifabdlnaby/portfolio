@@ -21,8 +21,6 @@ export default function BlogCard({ blog, isDark }) {
         <h3 className={isDark ? "small-dark blog-title" : "blog-title"}>
           {blog.title}
         </h3>
-        <div style={{ display: "inline-block" }}></div>
-
         <p class={isDark ? "small-dark small" : "small"}>{blog.description}</p>
       </a>
     </div>
