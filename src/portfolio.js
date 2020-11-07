@@ -22,8 +22,6 @@ const socialMediaLinks = {
   github: "https://github.com/sherifabdlnaby",
   gmail: "sherifabdlnaby@gmail.com",
   medium: "https://medium.com/@sherifabdlnaby",
-  // Instagram and Twitter are also supported in the links!
-  // TODO DarkMODE icons fix
 };
 
 // Your Skills Section
