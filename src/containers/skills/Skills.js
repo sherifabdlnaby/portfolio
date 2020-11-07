@@ -10,15 +10,12 @@ export default function Skills() {
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="interests">
       <div className="skills-main-div">
-        <Fade right distance="30px">
           <div className="skills-image-div">
             <img
               alt="Saad Working"
-              src={require("../../assets/images/undraw_hacker_mindset_gjwq.svg")}
+              src={require("../../assets/images/monitors.svg")}
             ></img>
           </div>
-        </Fade>
-        <Fade left distance="30px">
           <div className="skills-text-div">
             <h1
               className={isDark ? "dark-mode skills-heading" : "skills-heading"}
@@ -51,7 +48,6 @@ export default function Skills() {
               })}
             </div>
           </div>
-        </Fade>
       </div>
     </div>
   );
