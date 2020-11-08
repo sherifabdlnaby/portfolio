@@ -53,6 +53,10 @@
   }
 }
 
+.header .menu {
+  backdrop-filter: none;
+}
+
 .header ul {
   margin: 0;
   padding: 0;

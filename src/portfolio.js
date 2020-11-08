@@ -27,15 +27,14 @@ const socialMediaLinks = {
 // Your Skills Section
 
 const skillsSection = {
-  title: "Topics Interests",
-  subTitle: "These are topics and technologies that I enjoy studying and I enjoy working with/on them, I may not have total experience in every one of them yet, but I am always exploring. :).",
+  title: "Topics of Interests",
+  subTitle: "These are topics and technologies that I enjoy learning and I enjoy working with/on them, I may not have total experience in every one of them yet, but I am always exploring. :).",
   skills: [
     emoji("⚡ Developing Large Scale Applications and Solid Architectures"),
-    emoji("⚡ Open Source Contributions, Implementing Open Standards."),
-    emoji("⚡ Infrastructure Operation, Monitoring, and Observability"),
     emoji("⚡ Data Infrastructure Technologies like Spark, Hadoop, Hive and Presto"),
     emoji("⚡ Streaming Applications like Flink, Beam and Spark Streaming. and Of-course Kafka."),
-    emoji("⚡ Kubernetes")
+    emoji("⚡ Open Source Contributions, Implementing Open Standards."),
+    emoji("⚡ Infrastructure Operation (Kubernetes), Monitoring, and Observability"),
   ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
