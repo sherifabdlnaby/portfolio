@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "https://sherif.dev/static/css/main.2df08a4a.chunk.css",
-    "main.js": "https://sherif.dev/static/js/main.24f3f83f.chunk.js",
-    "main.js.map": "https://sherif.dev/static/js/main.24f3f83f.chunk.js.map",
+    "main.css": "https://sherif.dev/static/css/main.8730281a.chunk.css",
+    "main.js": "https://sherif.dev/static/js/main.c43df14b.chunk.js",
+    "main.js.map": "https://sherif.dev/static/js/main.c43df14b.chunk.js.map",
     "runtime-main.js": "https://sherif.dev/static/js/runtime-main.05b6c4b2.js",
     "runtime-main.js.map": "https://sherif.dev/static/js/runtime-main.05b6c4b2.js.map",
     "static/js/2.4fcecf15.chunk.js": "https://sherif.dev/static/js/2.4fcecf15.chunk.js",
@@ -14,11 +14,11 @@
     "static/js/4.399880fd.chunk.js": "https://sherif.dev/static/js/4.399880fd.chunk.js",
     "static/js/4.399880fd.chunk.js.map": "https://sherif.dev/static/js/4.399880fd.chunk.js.map",
     "index.html": "https://sherif.dev/index.html",
-    "precache-manifest.e7192c6a4a87a802e2777876180650dc.js": "https://sherif.dev/precache-manifest.e7192c6a4a87a802e2777876180650dc.js",
+    "precache-manifest.4f8caf19ddedb58a9d187bec512d7a5d.js": "https://sherif.dev/precache-manifest.4f8caf19ddedb58a9d187bec512d7a5d.js",
     "service-worker.js": "https://sherif.dev/service-worker.js",
     "static/css/3.f5b3d279.chunk.css.map": "https://sherif.dev/static/css/3.f5b3d279.chunk.css.map",
     "static/css/4.81397dca.chunk.css.map": "https://sherif.dev/static/css/4.81397dca.chunk.css.map",
-    "static/css/main.2df08a4a.chunk.css.map": "https://sherif.dev/static/css/main.2df08a4a.chunk.css.map",
+    "static/css/main.8730281a.chunk.css.map": "https://sherif.dev/static/css/main.8730281a.chunk.css.map",
     "static/media/index.css": "https://sherif.dev/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Airflow.png": "https://sherif.dev/static/media/Airflow.1e068141.png",
     "static/media/Beam.png": "https://sherif.dev/static/media/Beam.cd96ee91.png",
@@ -33,7 +33,7 @@
     "static/media/desk2.svg": "https://sherif.dev/static/media/desk2.8e89a436.svg",
     "static/media/desk3.svg": "https://sherif.dev/static/media/desk3.d6fe737a.svg",
     "static/media/developerActivity.svg": "https://sherif.dev/static/media/developerActivity.59389695.svg",
-    "static/media/distrbuitedsys.png": "https://sherif.dev/static/media/distrbuitedsys.af013f57.png",
+    "static/media/distrbuitedsys.png": "https://sherif.dev/static/media/distrbuitedsys.5dc88a24.png",
     "static/media/facebookLogo.png": "https://sherif.dev/static/media/facebookLogo.8ddf76a1.png",
     "static/media/googleAssistant.svg": "https://sherif.dev/static/media/googleAssistant.c24ba791.svg",
     "static/media/googleAssistantLogo.webp": "https://sherif.dev/static/media/googleAssistantLogo.e79c6392.webp",
@@ -65,7 +65,7 @@
   "entrypoints": [
     "static/js/runtime-main.05b6c4b2.js",
     "static/js/2.4fcecf15.chunk.js",
-    "static/css/main.2df08a4a.chunk.css",
-    "static/js/main.24f3f83f.chunk.js"
+    "static/css/main.8730281a.chunk.css",
+    "static/js/main.c43df14b.chunk.js"
   ]
 }
