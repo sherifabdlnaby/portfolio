@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "https://sherif.dev/static/css/main.8730281a.chunk.css",
-    "main.js": "https://sherif.dev/static/js/main.c43df14b.chunk.js",
-    "main.js.map": "https://sherif.dev/static/js/main.c43df14b.chunk.js.map",
-    "runtime-main.js": "https://sherif.dev/static/js/runtime-main.05b6c4b2.js",
-    "runtime-main.js.map": "https://sherif.dev/static/js/runtime-main.05b6c4b2.js.map",
-    "static/js/2.4fcecf15.chunk.js": "https://sherif.dev/static/js/2.4fcecf15.chunk.js",
-    "static/js/2.4fcecf15.chunk.js.map": "https://sherif.dev/static/js/2.4fcecf15.chunk.js.map",
+    "main.js": "https://sherif.dev/static/js/main.2026d32a.chunk.js",
+    "main.js.map": "https://sherif.dev/static/js/main.2026d32a.chunk.js.map",
+    "runtime-main.js": "https://sherif.dev/static/js/runtime-main.c9a678c1.js",
+    "runtime-main.js.map": "https://sherif.dev/static/js/runtime-main.c9a678c1.js.map",
+    "static/js/2.47c6394f.chunk.js": "https://sherif.dev/static/js/2.47c6394f.chunk.js",
+    "static/js/2.47c6394f.chunk.js.map": "https://sherif.dev/static/js/2.47c6394f.chunk.js.map",
     "static/css/3.f5b3d279.chunk.css": "https://sherif.dev/static/css/3.f5b3d279.chunk.css",
-    "static/js/3.82f9584e.chunk.js": "https://sherif.dev/static/js/3.82f9584e.chunk.js",
-    "static/js/3.82f9584e.chunk.js.map": "https://sherif.dev/static/js/3.82f9584e.chunk.js.map",
+    "static/js/3.f7baeac6.chunk.js": "https://sherif.dev/static/js/3.f7baeac6.chunk.js",
+    "static/js/3.f7baeac6.chunk.js.map": "https://sherif.dev/static/js/3.f7baeac6.chunk.js.map",
     "static/css/4.81397dca.chunk.css": "https://sherif.dev/static/css/4.81397dca.chunk.css",
     "static/js/4.399880fd.chunk.js": "https://sherif.dev/static/js/4.399880fd.chunk.js",
     "static/js/4.399880fd.chunk.js.map": "https://sherif.dev/static/js/4.399880fd.chunk.js.map",
     "index.html": "https://sherif.dev/index.html",
-    "precache-manifest.4f8caf19ddedb58a9d187bec512d7a5d.js": "https://sherif.dev/precache-manifest.4f8caf19ddedb58a9d187bec512d7a5d.js",
+    "precache-manifest.0aa639aec7fb73bc6a3f8cec094287eb.js": "https://sherif.dev/precache-manifest.0aa639aec7fb73bc6a3f8cec094287eb.js",
     "service-worker.js": "https://sherif.dev/service-worker.js",
     "static/css/3.f5b3d279.chunk.css.map": "https://sherif.dev/static/css/3.f5b3d279.chunk.css.map",
     "static/css/4.81397dca.chunk.css.map": "https://sherif.dev/static/css/4.81397dca.chunk.css.map",
@@ -63,9 +63,9 @@
     "static/media/vcs.svg": "https://sherif.dev/static/media/vcs.2dee0797.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.05b6c4b2.js",
-    "static/js/2.4fcecf15.chunk.js",
+    "static/js/runtime-main.c9a678c1.js",
+    "static/js/2.47c6394f.chunk.js",
     "static/css/main.8730281a.chunk.css",
-    "static/js/main.c43df14b.chunk.js"
+    "static/js/main.2026d32a.chunk.js"
   ]
 }
