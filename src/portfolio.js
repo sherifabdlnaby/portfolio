@@ -9,8 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sherif Abdel-Naby",
   title: "Hello, I'm Sherif",
-  subTitle: emoji("A passionate Software Engineer with interests in Large-Scale Applications, Distributed Systems, Data Infrastructure, Streaming Systems, and Cloud Archticture. Also a Gopher."),
-  subTitle2: emoji("”It really came down to the curiosity of wanting to understand everything underneath the hood.”"),
+  subTitle: emoji("A passionate Software Engineer with interests in Scalable Applications, Distributed Systems, Data Infrastructure, Streaming Systems, and Cloud Architecture. Also a Gopher."),
   resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view" 
 }
 // Your Social Media Link
@@ -29,13 +28,7 @@ const socialMediaLinks = {
 const skillsSection = {
   title: "Topics of Interests",
   subTitle: "These are topics and technologies that I enjoy learning and I enjoy working with/on them, I may not have total experience in every one of them yet, but I am always exploring. :).",
-  skills: [
-    emoji("⚡ Developing Large Scale Applications and Solid Architectures"),
-    emoji("⚡ Data Infrastructure Technologies like Spark, Hadoop, Hive and Presto"),
-    emoji("⚡ Streaming Applications like Flink, Beam and Spark Streaming. and Of-course Kafka."),
-    emoji("⚡ Open Source Contributions, Implementing Open Standards."),
-    emoji("⚡ Infrastructure Operation (Kubernetes), Monitoring, and Observability"),
-  ],
+  skills: [ ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
