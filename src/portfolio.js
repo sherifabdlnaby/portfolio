@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sherif Abdel-Naby",
   title: "Hello, I'm Sherif",
-  subTitle: emoji("A passionate Software Engineer with interests in Scalable Applications, Distributed Systems, Data Infrastructure, Streaming Systems, and Cloud Architecture. Also a Gopher."),
-  resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view" 
+  subTitle: emoji("Software Engineer; Loves anything that scales. I am generally interested in building large-scale architectures, cloud-native applications, data infrastructure, streaming systems, and Golang. Sometimes I write about them too."),
+  resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view"
 }
 // Your Social Media Link
 
@@ -27,7 +27,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Topics of Interests",
-  subTitle: "These are topics and technologies that I enjoy learning and I enjoy working with/on them, I may not have total experience in every one of them yet, but I am always exploring. :).",
+  subTitle: "These are topics and technologies that I enjoy learning and I enjoy working with/on them.",
   skills: [ ],
 
 /* Make Sure You include correct Font Awesome Classname to view your icon

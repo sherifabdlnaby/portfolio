@@ -70,7 +70,7 @@ export default function socialMedia() {
       :
       null}
 
-      <a href={greeting.resumeLink} className="icon-button stack-overflow" target="_blank">
+      <a href={greeting.resumeLink} className="icon-button resume" target="_blank">
          <i className="fas fa-file resume-button"><span>Resume</span></i>
       </a>
 

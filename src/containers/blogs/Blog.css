@@ -36,7 +36,7 @@
 }
 .blog-text-div {
   display: grid;
-  grid-template-columns: repeat(auto-fill);
+  grid-template-columns: repeat(auto-fill, minmax(800px, 1fr));
   gap: 32px;
 }
 .subTitle {
@@ -49,6 +49,7 @@
     font-size: 40px;
   }
 }
+
 @media (max-width: 768px) {
   .blog-header-text {
     font-size: 30px;
