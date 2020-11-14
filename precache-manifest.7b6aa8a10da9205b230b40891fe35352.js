@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "01e1fb11ed8ac4df01e23bffd9eb4578",
+    "revision": "70c1853f640646e96a46c0d07aa0ecc0",
     "url": "https://sherif.dev/index.html"
   },
   {
-    "revision": "7224e50029b5b135575c",
+    "revision": "d6811397f8cdfe158df5",
     "url": "https://sherif.dev/static/css/3.f5b3d279.chunk.css"
   },
   {
-    "revision": "a61fc066e3637fc9f0f6",
+    "revision": "82fecc871f2673f53324",
     "url": "https://sherif.dev/static/css/4.81397dca.chunk.css"
   },
   {
-    "revision": "61c2afa25327f157da76",
-    "url": "https://sherif.dev/static/css/main.8730281a.chunk.css"
+    "revision": "d1debc0aa80cb84d40c5",
+    "url": "https://sherif.dev/static/css/main.5dad95d1.chunk.css"
   },
   {
-    "revision": "4bcef26fb22d81bb00bc",
-    "url": "https://sherif.dev/static/js/2.47c6394f.chunk.js"
+    "revision": "e38f280a09567634eeab",
+    "url": "https://sherif.dev/static/js/2.4c67e881.chunk.js"
   },
   {
-    "revision": "7224e50029b5b135575c",
-    "url": "https://sherif.dev/static/js/3.f7baeac6.chunk.js"
+    "revision": "d6811397f8cdfe158df5",
+    "url": "https://sherif.dev/static/js/3.1b378312.chunk.js"
   },
   {
-    "revision": "a61fc066e3637fc9f0f6",
-    "url": "https://sherif.dev/static/js/4.399880fd.chunk.js"
+    "revision": "82fecc871f2673f53324",
+    "url": "https://sherif.dev/static/js/4.2a358290.chunk.js"
   },
   {
-    "revision": "61c2afa25327f157da76",
-    "url": "https://sherif.dev/static/js/main.2026d32a.chunk.js"
+    "revision": "d1debc0aa80cb84d40c5",
+    "url": "https://sherif.dev/static/js/main.916ef8b7.chunk.js"
   },
   {
-    "revision": "0f47d169a0370249f011",
-    "url": "https://sherif.dev/static/js/runtime-main.c9a678c1.js"
+    "revision": "c279e9a2c66fa7fec79d",
+    "url": "https://sherif.dev/static/js/runtime-main.fbfb8dfb.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
