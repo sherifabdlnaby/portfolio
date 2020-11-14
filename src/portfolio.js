@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sherif Abdel-Naby",
   title: "Hello, I'm Sherif",
-  subTitle: emoji("Software Engineer; Loves anything that scales. I am generally interested in building large-scale architectures, cloud-native applications, data infrastructure, streaming systems, and Golang. Sometimes I write about them too."),
+  subTitle: emoji("Software Engineer; Loves anything that scales. I am generally interested in building Large-Scale Applications, Cloud Infrastructure, Data Infrastructure, Streaming Systems, SRE/DevOps, and Golang. Sometimes I write about them too."),
   resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view"
 }
 // Your Social Media Link
