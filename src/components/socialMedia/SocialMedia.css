@@ -21,9 +21,22 @@
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  width: 2.6rem;
+  min-width: 2.6rem;
   margin-bottom: 10px;
   transition: 0.2s ease-in;
+}
+
+.resume-button {
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.icon-button span {
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.95rem;
+  vertical-align: top;
 }
 
 .facebook i {

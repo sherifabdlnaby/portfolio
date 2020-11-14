@@ -42,6 +42,7 @@
 
 .greeting-main > * {
   flex: 1;
+  margin: auto;
   /*margin-bottom: 30px;*/
 }
 .button-greeting-div {
