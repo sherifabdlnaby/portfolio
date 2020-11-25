@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dd2ca4ee1291194f57e34db5b6f3a432",
+    "revision": "e71692ba4f1eeb418f641599c2cf28d5",
     "url": "https://sherif.dev/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "https://sherif.dev/static/css/main.5dad95d1.chunk.css"
   },
   {
-    "revision": "e38f280a09567634eeab",
-    "url": "https://sherif.dev/static/js/2.4c67e881.chunk.js"
+    "revision": "2b556b328d065f237acc",
+    "url": "https://sherif.dev/static/js/2.b2651e60.chunk.js"
   },
   {
     "revision": "d6811397f8cdfe158df5",
