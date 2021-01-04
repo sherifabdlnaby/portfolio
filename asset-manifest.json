@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "https://sherif.dev/static/css/main.67570dec.chunk.css",
+    "main.css": "https://sherif.dev/static/css/main.5dad95d1.chunk.css",
     "main.js": "https://sherif.dev/static/js/main.999cd4f2.chunk.js",
     "main.js.map": "https://sherif.dev/static/js/main.999cd4f2.chunk.js.map",
     "runtime-main.js": "https://sherif.dev/static/js/runtime-main.b40af072.js",
@@ -14,11 +14,11 @@
     "static/js/4.eee2cc81.chunk.js": "https://sherif.dev/static/js/4.eee2cc81.chunk.js",
     "static/js/4.eee2cc81.chunk.js.map": "https://sherif.dev/static/js/4.eee2cc81.chunk.js.map",
     "index.html": "https://sherif.dev/index.html",
-    "precache-manifest.4125577d9d221c2268e9947a2e6cd57d.js": "https://sherif.dev/precache-manifest.4125577d9d221c2268e9947a2e6cd57d.js",
+    "precache-manifest.5e395f6b81247f63c653ba5a2594bb11.js": "https://sherif.dev/precache-manifest.5e395f6b81247f63c653ba5a2594bb11.js",
     "service-worker.js": "https://sherif.dev/service-worker.js",
     "static/css/3.f5b3d279.chunk.css.map": "https://sherif.dev/static/css/3.f5b3d279.chunk.css.map",
     "static/css/4.81397dca.chunk.css.map": "https://sherif.dev/static/css/4.81397dca.chunk.css.map",
-    "static/css/main.67570dec.chunk.css.map": "https://sherif.dev/static/css/main.67570dec.chunk.css.map",
+    "static/css/main.5dad95d1.chunk.css.map": "https://sherif.dev/static/css/main.5dad95d1.chunk.css.map",
     "static/media/index.css": "https://sherif.dev/static/media/Montserrat-Regular.ee653992.ttf",
     "static/media/Airflow.png": "https://sherif.dev/static/media/Airflow.1e068141.png",
     "static/media/Beam.png": "https://sherif.dev/static/media/Beam.cd96ee91.png",
@@ -65,7 +65,7 @@
   "entrypoints": [
     "static/js/runtime-main.b40af072.js",
     "static/js/2.84da670b.chunk.js",
-    "static/css/main.67570dec.chunk.css",
+    "static/css/main.5dad95d1.chunk.css",
     "static/js/main.999cd4f2.chunk.js"
   ]
 }
