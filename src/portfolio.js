@@ -127,6 +127,12 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "DevOps & Software Engineer",
+      company: "Levelset",
+      companylogo: require("./assets/images/levelset.jpg"),
+      date: "Dec 2020 – Now"
+    },
+    {
       role: "Software Engineer",
       company: "Levelset",
       companylogo: require("./assets/images/levelset.jpg"),
@@ -135,9 +141,8 @@ const workExperiences = {
       descBullets: [
         "Implemented Centralized Logging System for All Company Services using Elastic Stack",
         "Introduced A more sophisticated alerting system along with other observability practices and enhanced Alerting platform.",
-        "Worked in Packaging and Dockerzing most company Services and setting up plans to migrate to Kubernetes.",
-        "Had Experiences doing traditional DevOps duties",
-        "Experiences with Neo4J, Kafka, Elasticsearch and RabbitMQ."
+        "Packaging and Dockerzing company Services and setting up plans to migrate to Kubernetes.",
+        "Had Experiences doing traditional DevOps duties, and experiences with Neo4J, Kafka, Elasticsearch and RabbitMQ."
       ]
     },
     {
