@@ -15,7 +15,6 @@ const greeting = {
 // Your Social Media Link
 
 const socialMediaLinks = {
-
   linkedin: "https://www.linkedin.com/in/sherifabdlnaby/",
   twitter: "https://www.twitter.com/sherifabdlnaby",
   github: "https://github.com/sherifabdlnaby",
@@ -47,6 +46,14 @@ https://fontawesome.com/icons?d=gallery */
       image: require("./assets/images/distrbuitedsys.png")
     },
     {
+      skillName: "AWS",
+      image: require("./assets/images/aws.png")
+    },
+    {
+      skillName: "Terraform",
+      image: require("./assets/images/terraform.png")
+    },
+    {
       skillName: "Docker",
       image: require("./assets/images/docker.png")
     },
@@ -55,12 +62,12 @@ https://fontawesome.com/icons?d=gallery */
       image: require("./assets/images/kubernetes.png")
     },
     {
-      skillName: "Kafka",
-      image: require("./assets/images/kafka.png")
-    },
-    {
       skillName: "Prometheus",
       image: require("./assets/images/prom.png")
+    },
+    {
+      skillName: "Kafka",
+      image: require("./assets/images/kafka.png")
     },
     {
       skillName: "Spark",
@@ -74,10 +81,10 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "Beam",
       image: require("./assets/images/Beam.png")
     },
-    {
-      skillName: "Hadoop",
-      image: require("./assets/images/Hadoop.png")
-    },
+    // {
+    //   skillName: "Hadoop",
+    //   image: require("./assets/images/Hadoop.png")
+    // },
     {
       skillName: "Airflow",
       image: require("./assets/images/Airflow.png")
