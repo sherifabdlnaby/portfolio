@@ -1,39 +1,39 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d0cf702dddbda41d4c2dd5557df781a",
+    "revision": "fe1d2120cbaaf8d45333c98a17b87dfd",
     "url": "https://sherif.dev/index.html"
   },
   {
-    "revision": "1f942bf54214debdfde2",
+    "revision": "1a854ca3527401943b0d",
     "url": "https://sherif.dev/static/css/3.f5b3d279.chunk.css"
   },
   {
-    "revision": "3659d768d048d97aa58d",
+    "revision": "fde6155f1f32d35c199c",
     "url": "https://sherif.dev/static/css/4.81397dca.chunk.css"
   },
   {
-    "revision": "6c94c1798dc5d4b3ad15",
+    "revision": "ca032588cf71a1e8c34d",
     "url": "https://sherif.dev/static/css/main.5dad95d1.chunk.css"
   },
   {
-    "revision": "82e6b221bfbf892188a6",
-    "url": "https://sherif.dev/static/js/2.84da670b.chunk.js"
+    "revision": "c3adb08b6c4e27be488e",
+    "url": "https://sherif.dev/static/js/2.67e79059.chunk.js"
   },
   {
-    "revision": "1f942bf54214debdfde2",
-    "url": "https://sherif.dev/static/js/3.1a52abf0.chunk.js"
+    "revision": "1a854ca3527401943b0d",
+    "url": "https://sherif.dev/static/js/3.dfded767.chunk.js"
   },
   {
-    "revision": "3659d768d048d97aa58d",
-    "url": "https://sherif.dev/static/js/4.eee2cc81.chunk.js"
+    "revision": "fde6155f1f32d35c199c",
+    "url": "https://sherif.dev/static/js/4.abef557c.chunk.js"
   },
   {
-    "revision": "6c94c1798dc5d4b3ad15",
-    "url": "https://sherif.dev/static/js/main.999cd4f2.chunk.js"
+    "revision": "ca032588cf71a1e8c34d",
+    "url": "https://sherif.dev/static/js/main.b1046ed2.chunk.js"
   },
   {
-    "revision": "ea70a073749522c978cc",
-    "url": "https://sherif.dev/static/js/runtime-main.b40af072.js"
+    "revision": "a4a3e25ff9930381cf69",
+    "url": "https://sherif.dev/static/js/runtime-main.552ae92b.js"
   },
   {
     "revision": "21f233e19402cc4a66866a7f31191f0d",
@@ -66,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c59720d63dc3595a12e1c7e641a1bfa5",
     "url": "https://sherif.dev/static/media/airbnbLogo.c59720d6.png"
+  },
+  {
+    "revision": "6e283379f7ed6314f65110a08aa87b7f",
+    "url": "https://sherif.dev/static/media/aws.6e283379.png"
   },
   {
     "revision": "47a7a717679b640ceb1b05d38c480a61",
@@ -194,6 +198,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b48e86c9a956d3a3a32ca4a5ae05ddc7",
     "url": "https://sherif.dev/static/media/talksCardBackAlt.b48e86c9.svg"
+  },
+  {
+    "revision": "3d427f0448672218bfc8bbbd0405ca82",
+    "url": "https://sherif.dev/static/media/terraform.3d427f04.png"
   },
   {
     "revision": "ac169ca318a1b9cbe59088176f39d426",
