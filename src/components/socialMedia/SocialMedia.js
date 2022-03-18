@@ -8,9 +8,9 @@ export default function socialMedia() {
         <div className="social-media-div">
 
 
-            <a href={"tel:" + contactInfo.number} className="icon-button phone" target="_blank">
-                <i className="fas fa-phone-alt"></i>
-            </a>
+            {/*<a href={"tel:" + contactInfo.number} className="icon-button phone" target="_blank">*/}
+            {/*    <i className="fas fa-phone-alt"></i>*/}
+            {/*</a>*/}
 
             {socialMediaLinks.linkedin ?
                 <a href={socialMediaLinks.linkedin} className="icon-button linkedin" target="_blank">
@@ -75,9 +75,9 @@ export default function socialMedia() {
                 :
                 null}
 
-            <a href={greeting.resumeLink} className="icon-button resume" target="_blank">
-                <i className="fas fa-file resume-button"><span>Resume</span></i>
-            </a>
+            {/*<a href={greeting.resumeLink} className="icon-button resume" target="_blank">*/}
+            {/*    <i className="fas fa-file resume-button"><span>Resume</span></i>*/}
+            {/*</a>*/}
 
         </div>
     );

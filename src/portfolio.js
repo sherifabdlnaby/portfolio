@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Sherif Abdel-Naby",
   title: "Hello, I'm Sherif",
-  subTitle: emoji("Software Engineer; Loves anything that scales. I am generally interested in building Large-Scale Applications, Cloud Infrastructure, Data Infrastructure, Streaming Systems, SRE/DevOps, and Golang. Sometimes I write about them too."),
-  resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view"
+  subTitle: emoji("Software Engineer; Doing SRE, Loves anything that scales. Generally interested in Building Systems, running Large Scale Applications, Platform Engineering, Observability, Data Infrastructure, and Streaming Systems.")
+  // resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view"
 }
 // Your Social Media Link
 
@@ -34,11 +34,11 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Golang",
-      image: require("./assets/images/go.png")
+      skillName: "Kubernetes",
+      image: require("./assets/images/kubernetes.png")
     },
     {
-      skillName: "Microservices",
+      skillName: "Platform Engineering",
       image: require("./assets/images/mircsrvs.png")
     },
     {
@@ -54,12 +54,8 @@ https://fontawesome.com/icons?d=gallery */
       image: require("./assets/images/terraform.png")
     },
     {
-      skillName: "Docker",
-      image: require("./assets/images/docker.png")
-    },
-    {
-      skillName: "Kubernetes",
-      image: require("./assets/images/kubernetes.png")
+      skillName: "Golang",
+      image: require("./assets/images/go.png")
     },
     {
       skillName: "Prometheus",
@@ -108,9 +104,8 @@ const educationInfo = {
 }
 
 // Your top 3 proficient stacks/tech experience
-
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
       Stack: "Frontend/Design",  //Insert stack or technology you have experience in
@@ -134,10 +129,17 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "DevOps & Software Engineer",
+      role: "Site Reliability Engineer II",
       company: "Levelset",
       companylogo: require("./assets/images/levelset.jpg"),
-      date: "Dec 2020 – Now"
+      date: "Feb 2022 – Now"
+    },
+    {
+      role: "Software Engineer & DevOps",
+      company: "Levelset",
+      companylogo: require("./assets/images/levelset.jpg"),
+      date: "Dec 2020 – Jan 2022 (~1 year)",
+      desc: "Building Levelset's New Infrastructure and Platform on Kubernetes, and Migrate Old Infrastructure."
     },
     {
       role: "Software Engineer",
@@ -146,8 +148,8 @@ const workExperiences = {
       date: "Jan 2019 – Oct 2019 (10mos)",
       desc: "Working on Infrastructure Side along with DevOps specialization responsibilities.",
       descBullets: [
-        "Implemented Centralized Logging System for All Company Services using Elastic Stack",
-        "Introduced A more sophisticated alerting system along with other observability practices and enhanced Alerting platform.",
+        "Implemented Company Wide Centralized Logging System using Elastic Stack",
+        "Worked on new Alerting System, Collecting Metrics, and enhancing Observability.",
         "Packaging and Dockerzing company Services and setting up plans to migrate to Kubernetes.",
         "Had Experiences doing traditional DevOps duties, and experiences with Neo4J, Kafka, Elasticsearch and RabbitMQ."
       ]
@@ -276,8 +278,6 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+20 100 127 2160",
   email_address: "Sherif Abdel-Naby"
 };
 
