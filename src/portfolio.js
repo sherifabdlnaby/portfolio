@@ -131,7 +131,7 @@ const workExperiences = {
     {
       role: "Senior Site Reliability Engineer",
       company: "Procore Technologies",
-      companylogo: require("./assets/images/levelset.jpg"),
+      companylogo: require("./assets/images/procore.jpg"),
       date: "Apr 2022 - Present",
     },
     {
