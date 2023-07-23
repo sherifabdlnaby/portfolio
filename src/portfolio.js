@@ -7,9 +7,9 @@ import emoji from "react-easy-emoji";
 
 const greeting = {
   /* Your Summary And Greeting Section */
-  username: "Sherif Abdel-Naby",
+  username: "Sherif Abdel-Naby Farag",
   title: "Hello, I'm Sherif",
-  subTitle: emoji("Software Engineer; Doing SRE, Loves anything that scales. Generally interested in Building Systems, running Large Scale Applications, Platform Engineering, Observability, Data Infrastructure, and Streaming Systems.")
+  subTitle: emoji("Software Engineer; Software Engineer doing Infrastructure, SRE, Platform Engineering, DevOps ? Generally interested in Building Systems, running Large Scale Applications, Platform Engineering, Observability, Data Infrastructure, and Streaming Systems.")
   // resumeLink: "https://drive.google.com/file/d/1s2LyB8_Y5RQnXJpHWj2OsrOYEpXDoEH9/view"
 }
 // Your Social Media Link
@@ -72,11 +72,11 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Flink",
       image: require("./assets/images/Flink.png")
-    },
-    {
-      skillName: "Beam",
-      image: require("./assets/images/Beam.png")
-    },
+//    },
+//    {
+//      skillName: "Beam",
+//      image: require("./assets/images/Beam.png")
+//    },
     // {
     //   skillName: "Hadoop",
     //   image: require("./assets/images/Hadoop.png")
@@ -129,29 +129,38 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Site Reliability Engineer II",
-      company: "Levelset",
+      role: "Senior Site Reliability Engineer",
+      company: "Procore Technologies",
       companylogo: require("./assets/images/levelset.jpg"),
-      date: "Feb 2022 – Now"
+      date: "Apr 2022 - Present",
     },
     {
-      role: "Software Engineer & DevOps",
+      role: "DevOps & Site Reliability Engineer ",
       company: "Levelset",
       companylogo: require("./assets/images/levelset.jpg"),
-      date: "Dec 2020 – Jan 2022 (~1 year)",
-      desc: "Building Levelset's New Infrastructure and Platform on Kubernetes, and Migrate Old Infrastructure."
+      date: "Dec 2020 - Apr 2022  ·  1 yr 5 mo (acquired by Procore Technologies)",
+      desc: "Building a New Foundation for Levelset Growing Services, Teams, and Infrastructure Requirements.",
+      descBullets: [
+        "Designed, Planned, and Built a modern new Infrastructure and Platform on top of AWS and Kubernetes.",
+        "Setup Production Grade Kubernetes Clusters with High Availability, Efficient Autoscaling, and Binpacking Capabilities.",
+        "Standardized How Applications should be Built, Deployed, and Interact with Cloud Native Infrastructure. ",
+        "Led the Modernization and Migration of Existing Applications to New Cloud-Native Infrastructure.",
+        "Build Data Engineering Pipelines Infrastructure using Kubernetes, Kafka, and Airflow.",
+        "Revamp Management of Public Traffic, DNS, SSL, and Introduce Edge CDN and Caching.",
+        "Introduced and Standardized the Use of Infrastructure as Code.",
+        "Migrate Old Infrastructure to Modern Standards and Manage it by IaC via Terraform."
+      ]
     },
     {
       role: "Software Engineer",
       company: "Levelset",
       companylogo: require("./assets/images/levelset.jpg"),
       date: "Jan 2019 – Oct 2019 (10mos)",
-      desc: "Working on Infrastructure Side along with DevOps specialization responsibilities.",
+      desc: "Focusing on the Infrastructure Side along with DevOps responsibilities.",
       descBullets: [
-        "Implemented Company Wide Centralized Logging System using Elastic Stack",
-        "Worked on new Alerting System, Collecting Metrics, and enhancing Observability.",
-        "Packaging and Dockerzing company Services and setting up plans to migrate to Kubernetes.",
-        "Had Experiences doing traditional DevOps duties, and experiences with Neo4J, Kafka, Elasticsearch and RabbitMQ."
+       "Built a Centralized Logging System for All Company Services using Elastic Stack.",
+       "Introduced a services-wide alerting system based on Logs and Metrics.",
+       "Worked in Containerization of Services and setting up plans to migrate to Kubernetes."
       ]
     },
     {
@@ -159,21 +168,21 @@ const workExperiences = {
       company: "Levelset",
       companylogo: require("./assets/images/levelset.jpg"),
       date: "Jul 2018 – Oct 2018",
-      descBullets: ["Introduced MVP for a centralized logging system using Elastic Stack."]
+      descBullets: ["Introduced POC for a centralized logging system using Elastic Stack alongside other Backend development tasks."]
     },
     {
       role: "Software Development Intern",
       company: "El-Araby Group",
       companylogo: require("./assets/images/araby.jpg"),
       date: "Sep 2017 – Nov 2017",
-      desc: "Improving and refining parts within El-Araby e-commerce website; was also involved in designing, building, and testing a new website for El-Araby social platform."
+      desc: "Developing and refining parts within El-Araby e-commerce website."
     },
     {
       role: "Summer Academy Intern",
       company: "Microsoft",
       companylogo: require("./assets/images/microsoft.jpg"),
       date: "Jul 2017 – Sep 2017",
-      desc: "Developing an internal solution with the cooperation of Microsoft partners using Microsoft technologies and hosted on Azure. Being the team leader of the selected best team, I was offered an internship at El-Araby Group."
+      desc: "Developing internal solutions for a Microsoft regional partner using Microsoft technologies and hosted on Azure Cloud."
     },
   ]
 };
@@ -218,9 +227,9 @@ const achievementSection = {
       subtitle: "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
       image: require("./assets/images/codeInLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
-        { name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
-        { name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
+{ name: "Certification", url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing" },
+{ name: "Award Letter", url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing" },
+{ name: "Google Code-in Blog", url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html" }
       ]
     },
     {
@@ -235,8 +244,8 @@ const achievementSection = {
       subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
       image: require("./assets/images/pwaLogo.webp"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
+{ name: "Certification", url: "" },
+{ name: "Final Project", url: "https://pakistan-olx-1.firebaseapp.com/" }
       ]
     }
   ]
