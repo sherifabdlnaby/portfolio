@@ -72,7 +72,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Flink",
       image: require("./assets/images/Flink.png")
-//    },
+    },
 //    {
 //      skillName: "Beam",
 //      image: require("./assets/images/Beam.png")
